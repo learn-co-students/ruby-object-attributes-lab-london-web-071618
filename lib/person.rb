@@ -1,14 +1,24 @@
-class Dog
-  def initialise name
-    @name = get_name
+class Person
+ 
+  def initialize
+    @name=name
+    @job=job
   end
-  
+ 
   def name
     @name
   end
-  
-  def name=(get_name)
-    @name=get_name
+ 
+  def name=(new_name)
+    @name=new_name
   end
-  
+ 
+  def job
+    @job
+  end
+ 
+  def job=(new_job)
+    @job=new_job
+  end
+ 
 end
